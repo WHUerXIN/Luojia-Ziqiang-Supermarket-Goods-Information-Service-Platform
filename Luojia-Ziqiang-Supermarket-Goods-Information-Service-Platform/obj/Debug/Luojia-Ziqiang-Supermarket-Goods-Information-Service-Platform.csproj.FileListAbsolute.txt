@@ -1,0 +1,24 @@
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe.config
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.pdb
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csprojAssemblyReference.cache
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.Form1.resources
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.Properties.Resources.resources
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.sign_in.resources
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csproj.GenerateResource.cache
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.pdb
+E:\Visual Studio Projects\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.View.resources
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe.config
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\bin\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.pdb
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.Form1.resources
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.Properties.Resources.resources
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.sign_in.resources
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia_Ziqiang_Supermarket_Goods_Information_Service_Platform.View.resources
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.exe
+C:\Users\Admin\Desktop\软件设计与体系结构\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform\obj\Debug\Luojia-Ziqiang-Supermarket-Goods-Information-Service-Platform.pdb
