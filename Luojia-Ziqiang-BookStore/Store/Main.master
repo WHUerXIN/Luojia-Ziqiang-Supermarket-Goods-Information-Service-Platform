@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="/Img/ji.ico"/>
+    <link rel="stylesheet" href="/css/nav.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body id="sidebar">
+    <form id="form1" runat="server">
+    <div class="mainMenu">
+        <nav class="nav1" style="font-family: 微软雅黑;">
+            <a class="link-1" href="Default.aspx">首页</a>
+            <a class="link-1" href="GoodsList.aspx">全部商品</a>
+            <a class="link-1" href="EditUserInfo.aspx">用户中心</a>
+            <a class="link-2" style="float:right; padding: 0" href="Default.aspx">
+                <asp:ImageButton ID="quit" runat="server" src="/Img/注销.svg" class="menuIcon" OnClick="quit_Click"/></a>
+            <a class="link-2" style="float:right; padding: 0" href="login.aspx">
+                <asp:Image ID="headimage" runat="server" class="menuIcon"/></a>
+            <a class="link-2" style="float:right; padding: 0" href="ShopCart.aspx">
+                <img src='/Img/购物车.svg' class="menuIcon"></a>
+        </nav>
+    </div>
+    
+
+    
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <!-- 底部 -->
+    <div class="wrapper">
+    <section class="columns">
+	
+	<div class="column">
+		<h style="font-size: 16px;">联系方式</h>
+		<p style="font-size: 14px;">官方客服QQ：1369251142</p>
+        <p style="font-size: 14px;">企业电子邮箱：JiGarden@sina.com</p>
+        <p style="font-size: 14px;">电话号码：021-58885888</p>
+	</div>
+	
+	<div class="column">
+		<h style="font-size: 16px;">购物指南</h>
+		<p style="font-size: 14px;">挑选商品</p>
+        <p style="font-size: 14px;">选择支付方式</p>
+        <p style="font-size: 14px;">付款收货</p>
+	</div>
+  
+  <div class="column">
+		<h style="font-size: 16px;">送货说明</h>
+		<p style="font-size: 14px;">购物流程</p>
+        <p style="font-size: 14px;">订购方式</p>
+        <p style="font-size: 14px;">注意事项</p>
+  </div>
+  <div class="column">
+		<h style="font-size: 16px;">关于我们</h>
+		<p style="font-size: 14px;">品牌故事</p>
+        <p style="font-size: 14px; margin-bottom: 10px;">合作加盟</p>
+        <a style="font-size: 14px; color: white;" href="manager/Admin_login.aspx">进入后台</a>
+  </div>
+</section>	
+
+</div>
+
+</body>
+</html>

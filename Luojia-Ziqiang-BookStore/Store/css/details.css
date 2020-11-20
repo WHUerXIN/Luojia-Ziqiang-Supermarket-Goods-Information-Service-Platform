@@ -1,0 +1,28 @@
+﻿.span4 {
+    
+    padding-left:300px;
+    width:580px;
+    
+}
+
+.slate {
+    border-radius: 40px;
+    /*background-color: whitesmoke;*/
+    background-color: rgba(226, 223, 223, 0.95);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slate:hover{
+    background-color:#f9f9f9;
+}
+
+.btnBack {
+    padding: 30px;
+    color: #FFFFFF;
+    Width: 70%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+

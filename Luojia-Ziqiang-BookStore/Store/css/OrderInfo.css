@@ -1,0 +1,27 @@
+﻿.ttb {
+    width: 1000px;
+    height: auto;
+    /*margin: 2% auto;*/
+    padding-top:30px;
+    border-radius: 40px;
+    background-color: rgba(226, 223, 223, 0.95);
+    /* background-color:#595959;*/
+    font-size: 15px;
+    color: #283035;
+    /*line-height: 70px;*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left:300px;
+}
+
+    .ttb:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        background-color: whitesmoke;
+    }
+
+.a2{
+    background-color:lightsteelblue;
+    font-size:10px;
+    color:#283035;
+    line-height:20px;
+    
+}

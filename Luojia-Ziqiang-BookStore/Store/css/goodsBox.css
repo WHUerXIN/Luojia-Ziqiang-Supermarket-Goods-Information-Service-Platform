@@ -1,0 +1,96 @@
+﻿.goodsTitle {
+    width: 1200px;
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #8c8b94;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+.titleType{
+    color: white;
+    /*font-size: 18px;*/
+    font-family:STFangsong;
+    font-size:24px;
+    font-weight:600;
+}
+
+.card-image {
+    display: block;
+    min-height: 17rem; /* layout hack */ /* 最小高度: 20rem */
+    background: #fff center center no-repeat;
+    background-size: cover;
+}
+
+    .card-image > img {
+        display: block;
+        width: 70%;
+    }
+
+
+.card a img{
+    width: 260px;
+    height: 260px;
+}
+
+
+/* Layout Styles */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h3{
+    margin-left: 165px;
+    margin-top: 50px;
+    font-weight:400;
+}
+
+.card-list {
+    display: block;
+    /*margin: 1rem auto;*/
+    padding: 0;
+    font-size: 0;
+    /*text-align: center;*/
+    list-style: none;
+    margin-left:165px;
+}
+
+.card {
+    display: inline-block;
+    width: 260px;                /* 卡片宽度：90% */
+    max-width: 17rem;            /* 最大宽度：20rem */
+    margin: 8px 12px 8px 0;              /* 卡片间距(1rem) */
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    /*box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);*/
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    background: white;
+}
+
+    .card:hover {
+        transform: translateY(-0.5rem) scale(1.0125);
+        box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+    }
+
+.card-description {
+    display: block;
+    padding: 1em 0.5em;
+    color: #515151;
+    text-decoration: none;
+    text-align:center;
+}
+
+    .card-description > h2 {
+        margin: 0 0 0.5em;
+        font-size: 18px;
+    }
+
+    .card-description > p {
+        margin: 0;
+    }

@@ -1,0 +1,68 @@
+﻿.GridViewStyle {
+    border-right: 2px solid #A7A6AA;
+    border-bottom: 2px solid #A7A6AA;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 4px;
+    margin: auto;
+    line-height: 20px;
+    text-align: center;
+    /*font-size: 15px;*/
+    
+    overflow: hidden;
+    margin: 4em auto;
+    border-collapse: collapse;
+    min-width: 23em;
+    width: 70%;
+    max-width: 56em;
+    border-radius: .5em;
+    box-shadow: 0 0 .5em #000;
+    background: #555;
+    font: 1em/1.25 trebuchet ms, verdana, sans-serif;
+    color: #fff;
+}
+
+    .GridViewStyle a {
+        color: #FFFFFF;
+    }
+
+.GridViewHeaderStyle th {
+    border-left: 1px solid #EBE9ED;
+    border-right: 1px solid #EBE9ED;
+}
+.tr {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.GridViewHeaderStyle {
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewFooterStyle {
+    background-color: #5D7B9D;
+    font-weight: 100;
+    color: White;
+}
+
+.GridViewRowStyle {
+    background-color: #F7F6F3;
+    color: #333333;
+}
+
+.GridViewAlternatingRowStyle {
+    background-color: #FFFFFF;
+    color: #284775;
+}
+
+    .GridViewRowStyle td, .GridViewAlternatingRowStyle td {
+        border: 1px solid #EBE9ED;
+    }
+
+.GridViewSelectedRowStyle {
+    background-color: #E2DED6;
+    font-weight: 100;
+    color: #333333;
+}

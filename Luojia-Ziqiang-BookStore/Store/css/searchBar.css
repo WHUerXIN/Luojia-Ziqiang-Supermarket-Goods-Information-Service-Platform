@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.grid {
+    margin-left: 290px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  /*border: 3px solid #00B4CC;*/
+  border: 3px solid;
+  border-image:url('/Img/wood.jpg') 3 round;
+  border-right: none;
+  padding: 5px;
+  /*height: 20px;*/
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #D9C3BB;
+  /*border-image:url('/Img/wood.jpg') 1 ;*/
+  /*background: #00B4CC;*/
+  background-image: url('/Img/wood.jpg');
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 330px;
+  margin-left:391px;
+  /*transform: translate(-50%, -50%);*/
+}

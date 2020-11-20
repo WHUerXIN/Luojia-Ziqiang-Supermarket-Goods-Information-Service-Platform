@@ -1,0 +1,357 @@
+*{
+	margin:0 0 0 0px;
+	padding:0;
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('Img/font/iconfont.eot'); 
+    src: url('Img/font/iconfont.eot') format('embedded-opentype'),
+    url('Img/font/iconfont.woff') format('woff'),
+    url('Img/font/iconfont.ttf') format('truetype'),
+    url('Img/font/iconfont.svg#iconfont') format('svg');
+}
+
+a{
+	text-decoration: none;
+}
+
+.sub-row a:link,.sub-row a:visited{
+	color:#5e5e5e;
+}
+
+.main{
+	font-family:"微软雅黑";
+	color: #14191e;
+}
+
+.main{
+	width:100%;                  /* 宽度(1200px) */
+	height:460px;
+	position:relative;
+	overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.banner{
+	width:100%;                  /* 宽度(1200px) */
+	height:460px;
+	overflow:hidden;
+	position:relative;
+}
+
+.banner-slide{
+	width:100%;                  /* 宽度(1200px) */
+	height:460px;
+	background-repeat:no-repeat;
+	float:left;
+	display:none;
+}
+
+.slide-active{
+	display:block;
+}
+
+.slide1{
+	background-image:url(/Img/cover1.png);
+	background-size: 100%;
+}
+
+.slide2 {
+	background-image: url(/Img/cover2.jpg);
+	background-size: 100%;
+}
+
+.slide3 {
+	background-image: url(/Img/cover4.jpg);
+	background-size: 100%
+}
+
+.button{
+    position: absolute;
+    transform:rotate(180deg);
+    top: 50%;
+    height: 80px;
+    width: 40px;
+    margin-top:-40px;
+    background:url(/Img/arrow.png) center center no-repeat;
+}
+
+.next{
+	transform:rotate(0deg);
+	left:auto;
+	right:0;
+}
+
+.button:hover{
+	background-color:#333;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+.dots {
+	position: relative;
+	bottom: 35px;
+	text-align: center;
+	line-height: 12px;
+}
+
+.dots span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left: 8px;
+	background-color: rgba(7, 17, 27, 0.4);
+	cursor: pointer;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+}
+
+.dots span.active{
+	box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+	background-color: #ffffff;
+}
+
+/* menu-box */
+.menu-box {
+	background:rgba(7, 17, 27, 0.5);
+	opacity: 0.5;
+	position: absolute;
+	left: 100px;                     /* 菜单box位置 */
+	top: 0px;
+	width: 244px;
+	height: 460px;
+	z-index: 1;
+}
+
+.menu-content{
+	position: absolute;
+	left: 100px;                            /* 菜单文字 */
+	top: 0px;
+	width: 244px;
+	height: 460px;
+	z-index: 2;
+	padding-top: 6px;
+}
+
+.menu-item{
+	height: 64px;
+	line-height: 66px;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 0 24px;
+	position: relative;
+}
+
+.menu-item a{
+	display: block;
+	color: #fff;
+	padding: 0 8px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	height: 63px;
+	font-size:16px;
+}
+
+.menu-item:last-child a{
+	border-bottom:none;
+}
+
+.menu-item i{
+	position: absolute;
+	right: 32px;
+	top: 24px;
+	color: rgba(255,255,255,0.5);
+	font-size: 24px;
+    top: 2px;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"iconfont";
+}
+
+.sub-menu {
+	/*border: 1px solid #d9dde1;*/
+	background-color: rgba(255,255,255,0.4);
+	position: absolute;
+	left: 344px; /* 子菜单位置 */
+	top: 4px;
+	width: 250px;
+	height: 450px;
+	z-index: 581;
+	/*box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);*/
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+	border-radius: 0 30px 30px 0;
+}
+
+.hide{
+	display:none;
+}
+
+.inner-box{
+	width:100%;
+	height:100%;
+	background:url(Img/fe.png) no-repeat;
+	display:none;
+}
+
+.sub-inner-box{
+	width: 652px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.title{
+	color: #376088;
+	font-size: 20px;
+	font-family: 宋体;
+	line-height: 16px;
+	margin-top: 28px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.sub-row{
+	margin-bottom:17px;
+}
+
+.bold{
+	font-weight:700;
+}
+
+.mr10{
+	margin-right:10px;
+}
+
+.ml10{
+	margin-left:10px;
+}
+
+
+/*  accordion  */
+.accordion-group li:nth-child(4) .accordion-overlay {
+	background-color: #333;
+	opacity: 0.8;
+}
+
+.accordion-group li:nth-child(4).out .accordion-overlay {
+	background-color: #333;
+	opacity: 0;
+}
+
+.accordion-group li:nth-child(3) .accordion-overlay {
+	background-color: #9d9d9d;
+	opacity: 0.8;
+}
+
+.accordion-group li:nth-child(3).out .accordion-overlay {
+	background-color: #9d9d9d;
+	opacity: 0;
+}
+
+.accordion-group li:nth-child(2) .accordion-overlay {
+	background-color: #ca9964;
+	opacity: 0.8;
+}
+
+.accordion-group li:nth-child(2).out .accordion-overlay {
+	background-color: #ca9964;
+	opacity: 0;
+}
+
+.accordion-group li:nth-child(1) .accordion-overlay {
+	background-color: #a87339;
+	opacity: 0.8;
+}
+
+.accordion-group li:nth-child(1).out .accordion-overlay {
+	background-color: #a87339;
+	opacity: 0;
+}
+.accordion-group {
+  overflow: hidden;
+  margin-left: 165px;
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+  width: 1076px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.accordion-group li {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 1.6em;
+  list-style: none;
+  width: 16.66666667%;
+  height: inherit;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.accordion-group li h3 {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  padding: 0;
+  font-weight: 300;
+  margin: 6.5rem 0 0;
+}
+.accordion-group li .accordion-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.accordion-group li section {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+}
+.accordion-group li section.big-section {
+  width: 100%;
+}
+.accordion-group li section article {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 4rem;
+  position: relative;
+  right: -200%;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.accordion-group li section article p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.6rem;
+  color: #333;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
+}
+.accordion-group li section article p:before,
+.accordion-group li section article p:after {
+  content: "";
+  display: block;
+  height: 1px;
+}
+.accordion-group li.out {
+  width: 50%;
+}
+.accordion-group li.out section article {
+  right: 0;
+}
